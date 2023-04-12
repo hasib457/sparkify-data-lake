@@ -13,7 +13,7 @@ Clone the project repository from GitHub to your local machine.
 
 ### Usage
 1. Configure `dl.cfg` with your AWS credentials.
-2. Launch a Spark session using `python etl.py`.
+2. Launch a Spark session using `spark-submit etl.py`.
 3. The ETL pipeline will extract data from S3 buckets, transform the data into tables, and load them back into S3 buckets in parquet format.
 
 ## Files
